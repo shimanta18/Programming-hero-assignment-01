@@ -7,7 +7,7 @@ body{
 }
 
 
-/*Header*/
+/*Banner section*/
 
 .nav-bar{
     display: flex;
@@ -289,4 +289,10 @@ padding: 0;
 display: flex;
 justify-content: center;
 gap: 40px;
+}
+.navigation-bar a{
+    text-decoration:none ;
+    font-weight: 300;
+    color: #8987A1;
+    font-family: Raleway;
 }
