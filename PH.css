@@ -4,8 +4,9 @@ body{
     min-height: 150vh;
     margin: 0;
     background-image: url(Picture/Hero-bg.png);
-
+    background-attachment: fixed;
 }
+
 
 /*Header*/
 
@@ -57,13 +58,16 @@ h1{
     background-color: #4E47FF;
     cursor: pointer;
 }
+.stay-focused:hover{
+    background-color: #008c99;
+}
 
 /*Action*/
 .Hero-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #F5F8FF;
     padding: 120px 60px;
 
 }
@@ -91,9 +95,171 @@ h1{
     font-family: Raleway;
     font-weight: bold;
     margin: 10px 100px;
+    cursor: pointer;
 }
 .Hero-image{
     max-width: 100%;
     height: auto;
     border-radius: 50px 50px;
+}
+
+
+/*Productive user section*/
+.productive-user{
+    background-color: #F5F8FF;
+    padding:60px 100px;
+    text-align: center;
+    font-family:Raleway;
+    font-weight: bold;
+}
+.productive-user h2{
+font-size: 49px;
+margin-bottom: 40px;
+}
+.user-progress{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color:#c2c0fc;
+    border-radius: 80px 80px;
+    padding: 1px;
+    flex-wrap: wrap;
+}
+
+.user {
+    text-align: center;
+    padding: 0px 20px;
+    border-radius: 12px;
+    width: 300px;
+}
+.user h3{
+    font-size: 80px;
+    font-family: inter;
+    color: #4E47FF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.user p{
+    font-size: 20px;
+    font-family: inter;
+    color: #a19d9d;
+}
+
+/*feedback section*/
+.feedback{
+background-color: #F5F8FF;
+padding: 60px 40px;
+text-align: center;
+font-family: ;
+}
+.feedback h1{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: Raleway;
+    margin-bottom: 40px;
+}
+.feedback-cards{
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+}
+
+.feedback-container{
+    background-color: #ffffff;
+    padding: 20px 18px;
+    width: 280px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+}
+
+/*feedback-Rating*/
+.Rating{
+    display: flex;
+    gap: 6px;
+}
+.Rating img{
+    text-align: justify;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+/*feedback-review*/
+
+.review-body{
+
+font-size: 1.2rem;
+text-align: justify;
+font-family: ;
+margin-top: 15px;
+margin-bottom: 10px;
+}
+
+.review-body p{
+    font-size: 19px;
+    text-align: justify;
+}
+
+.avater-block img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px;
+    margin-top: 15px;
+}
+
+/*Let’s Get In Touch Section*/
+
+
+.touch-container{
+    background-color: #F5F8FF;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+
+}
+.touch-text{
+    flex:1;
+}
+
+.touch-text h1{
+    font-size: 97px;
+    font-family: Raleway;
+    font-weight: bold;
+    margin: 40px 3px 104px 70px;
+}
+.touch-right{
+    flex: 1;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom:5px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Inter;
+}
+input,textarea{
+    font-family: Inter;
+    margin-bottom: 2px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+button{
+    padding:  19px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: #008c99;
 }
