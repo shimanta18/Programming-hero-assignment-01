@@ -1,7 +1,6 @@
 
 
 body{
-    min-height: 150vh;
     margin: 0;
     background-image: url(Picture/Hero-bg.png);
     background-attachment: fixed;
@@ -120,8 +119,8 @@ margin-bottom: 40px;
     display: flex;
     justify-content: center;
     gap: 30px;
-    background-color:#c2c0fc;
-    border-radius: 80px 80px;
+    background-color:#E5E7FF;
+    border-radius: 30px 30px;
     padding: 1px;
     flex-wrap: wrap;
 }
@@ -150,7 +149,6 @@ margin-bottom: 40px;
 background-color: #F5F8FF;
 padding: 60px 40px;
 text-align: center;
-font-family: ;
 }
 .feedback h1{
     font-size: 42px;
@@ -193,7 +191,7 @@ flex-wrap: wrap;
 
 font-size: 1.2rem;
 text-align: justify;
-font-family: ;
+font-family: Raleway;
 margin-top: 15px;
 margin-bottom: 10px;
 }
@@ -275,11 +273,14 @@ background-color: #ffffff;
     font-family: Inter;
     font-weight: 900;
     margin-bottom: 10px;
+    color: #4E47FF;
 }
 .footer-tag{
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 300;
     margin-bottom: 10px;
+    font-family: Raleway;
+    color:#8987A1 ;
 }
 
 .navigation-bar ul{
@@ -288,7 +289,4 @@ padding: 0;
 display: flex;
 justify-content: center;
 gap: 40px;
-}
-.navigation-bar a{
-    text-decoration: none;
 }
