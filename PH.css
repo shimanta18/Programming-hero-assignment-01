@@ -212,7 +212,6 @@ margin-bottom: 10px;
 
 /*Let’s Get In Touch Section*/
 
-
 .touch-container{
     background-color: #F5F8FF;
     display: flex;
@@ -262,4 +261,34 @@ button{
 }
 button:hover{
     background-color: #008c99;
+}
+
+/*footer section*/
+.footer{
+text-align: center;
+padding: 60px 20px 30px;
+background-color: #ffffff;
+
+}
+.footer-title{
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.footer-tag{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.navigation-bar ul{
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: center;
+gap: 40px;
+}
+.navigation-bar a{
+    text-decoration: none;
 }
